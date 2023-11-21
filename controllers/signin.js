@@ -32,4 +32,4 @@ const handleSignIn = (db, bcrypt) => (req, res) => {
     // res.json('Signed In');
 };
 
-export default { handleSignIn };
+export { handleSignIn };

@@ -14,4 +14,4 @@ const handleProfile = (req, res, db) => {
         .catch(() => res.status(400).json("Error getting user"));
 };
 
-export default { handleProfile };
+export { handleProfile };
